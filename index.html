@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <nav class="navbar">
+      <div class="logo">MyWebsite</div>
+
+      <button class="menu-btn" onclick="toggleMenu()">☰</button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <h1>Build Something Amazing</h1>
+        <p>
+          A simple responsive website that looks great
+          on desktop, tablet, and mobile.
+        </p>
+        <button onclick="showMessage()">Get Started</button>
+      </div>
+
+      <div class="hero-image">
+        <div class="image-card">🚀</div>
+      </div>
+    </section>
+
+    <section class="services" id="services">
+      <h2>Our Services</h2>
+
+      <div class="cards">
+        <div class="card">
+          <div class="icon">💻</div>
+          <h3>Web Design</h3>
+          <p>Modern and beautiful website designs.</p>
+        </div>
+
+        <div class="card">
+          <div class="icon">📱</div>
+          <h3>Responsive</h3>
+          <p>Works perfectly on phones and tablets.</p>
+        </div>
+
+        <div class="card">
+          <div class="icon">⚡</div>
+          <h3>Fast</h3>
+           <p>Clean and optimized frontend code.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 MyWebsite. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
